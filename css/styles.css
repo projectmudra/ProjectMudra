@@ -4,6 +4,7 @@
     
     background-color: #ffcc29;
     text-align: center;
+    width: auto;
     
 }
 
@@ -31,6 +32,7 @@
 }
 .title-div{
     padding: 3% 15%;
+    max-width: 100%;
 }
 
 /* !!! NAVBAR CSS */
@@ -50,4 +52,23 @@
     padding: 7% 15%;
     text-align: center;
 }
+
+@media (max-width:750px){
+    .aboutus-content{
+        text-align: justify;
+    }
+}
+@media (max-width:1000px){
+    .aboutus-gif{
+        width: 80%;
+    }
+}
+
+/* Our Story Section */
+#ourStory{
+ background-color: #ffcc29;
+ text-align: center;
+}
+
+
 
