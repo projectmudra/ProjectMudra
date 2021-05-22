@@ -1,4 +1,7 @@
 /* ! TITLE ANIMATION  */
+#pagetitle {
+  background-color: green;
+}
 .popout {
   font-family: Futura, sans-serif;
   font-weight: 900;
@@ -64,29 +67,74 @@
   }
 }
 
-
 /* !!! NAVBAR CSS */
-.navbar-custom{
+.navbar-custom {
   margin-left: 2%;
   margin-right: 2%;
 }
 
-.youtube-video {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 56.25%;
-}
-.youtube-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 60%;
-  height: 60%;
+/* !!! Headings  */
+.search {
+  margin: 2%;
 }
 
-#pagetitle {
-  background-color: green;
+/* !!! Search !!! */
+#searchBySubjects {
+  text-align: center;
+}
+.search-row {
+  max-width: 60% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+@media (max-width: 950px) {
+  .search-row {
+    max-width: 80% !important;
+  }
+}
+.subject-button {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+/* !!! SUBJECT VIDEO SECTION */
+.subject-title {
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+}
+
+/* !!! Youtube Responsiveness  */
+.youtube-iframe {
+  position: relative;
+  width: 70% !important;
+  max-height: 70% !important ;
+}
+.video {
+  margin-top: 2%;
+  margin-left: 2% !important;
+  margin-right: 2% !important;
+}
+.video-margin {
+  margin-top: -10%;
+  margin-left: 2% !important;
+  margin-right: 2% !important;
+}
+
+@media (max-width: 1000px) {
+  .youtube-iframe {
+    position: relative;
+    width: 100% !important;
+    max-height: 1000% !important ;
+  }
+  .video {
+    margin-top: 2%;
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+  }
+  .video-margin {
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+    margin-top: auto;
+  }
 }
