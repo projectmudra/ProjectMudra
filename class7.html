@@ -30,9 +30,8 @@
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
 
-            <a class="navbar-brand brand-nav">
+            <a class="navbar-brand brand-nav" href="index.html">
                 <img class="navbar-title-image" src="mudra-navbar.png">
-
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navtop"
@@ -46,18 +45,56 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">About Us</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="competitions.html">Subjects</a>
+                    <li class="nav-item dropdown rounded">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Standards
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="class7.html">Class 7</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown rounded">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Subjects
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="agriculture.html">Agriculture</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="english.html">English</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="science.html">Science</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="social.html">Social Science</a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="milestones.html">Standard</a>
+                        <a class="nav-link" href="login.php">Login</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="research.html">Login</a>
+                        <a class="nav-link" href="registration.php">Registration</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Registration</a>
+                        <a class="nav-link" href="user-home.php">User Home</a>
                     </li>
+
 
                 </ul>
 
@@ -79,24 +116,89 @@
 
 
     </section>
+    <section id="searchBySubjects">
 
-    <h3>Search By Subjects</h3>
-    <a class="btn btn-outline-dark" href="#">English</a>
-    <a class="btn btn-outline-dark" href="#">English</a>
-    <a class="btn btn-outline-dark" href="#">English</a>
-    <a class="btn btn-outline-dark" href="#">English</a>
-    <a class="btn btn-outline-dark" href="#">English</a>
+        <h3 class="search text-center">Search by Subjects</h3>
+        <div class="container-fluid">
+            <div class="row search-row row-cols-lg-3 row-cols-md-3 row-cols-sm-3 row-cols-1">
+                <div class="col text-center">
+                    <a class="btn btn-outline-dark subject-button" href="#english">English</a>
+                </div>
+                <div class="col text-center">
+                    <a class="btn btn-outline-dark subject-button" href="#science">Science</a>
+                </div>
+                <div class="col text-center">
+                    <a class="btn btn-outline-dark subject-button " href="#social">Social Studies</a>
+                </div>
 
+            </div>
 
-    <section id="english">
-        <h3>Title</h3>
-        <div class="youtube-video">
-            <iframe class="youtube-iframe" src="https://www.youtube.com/embed/4KHiSt0oLJ0" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
         </div>
     </section>
+
+
+
+    <section id="english" class="subject-videos">
+        <h2 class="subject-title">English</h2>
+
+        <div class="video">
+            <h3 class="video-title">1. Parts of Speech</h3>
+            <p class="language">Taught in Telugu</p>
+            <div class="ratio ratio-16x9">
+                <iframe class="youtube-iframe" src="https://www.youtube.com/embed/p5KNA-GnbdM" title="YouTube video"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="video-margin">
+            <h3 class="video-title">2. Types of Nouns</h3>
+            <p class="language">Taught in English</p>
+            <div class="ratio ratio-16x9">
+                <iframe class="youtube-iframe" src="https://www.youtube.com/embed/iflYlXSoWfM" title="YouTube video"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="video-margin">
+            <h3 class="video-title">3. Articles</h3>
+            <p class="language">Taught in Telugu</p>
+            <div class="ratio ratio-16x9">
+                <iframe class="youtube-iframe" src="https://www.youtube.com/embed/ficKs5LI_Gw" title="YouTube video"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="science" class="subject-videos">
+        <h2 class="subject-title">Science</h2>
+
+        <div class="video">
+            <h3 class="video-title">1. Parts of Speech</h3>
+            <p class="language">Taught in Telugu</p>
+            <div class="ratio ratio-16x9">
+                <iframe class="youtube-iframe" src="https://www.youtube.com/embed/p5KNA-GnbdM" title="YouTube video"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="video-margin">
+            <h3 class="video-title">2. Types of Nouns</h3>
+            <p class="language">Taught in English</p>
+            <div class="ratio ratio-16x9">
+                <iframe class="youtube-iframe" src="https://www.youtube.com/embed/iflYlXSoWfM" title="YouTube video"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="video-margin">
+            <h3 class="video-title">3. Articles</h3>
+            <p class="language">Taught in Telugu</p>
+            <div class="ratio ratio-16x9">
+                <iframe class="youtube-iframe" src="https://www.youtube.com/embed/ficKs5LI_Gw" title="YouTube video"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </section>
+
+    
 </body>
 
 </html>
