@@ -51,8 +51,12 @@
 #aboutUs{
     padding: 7% 15%;
     text-align: center;
+
 }
 
+.aboutus-content{
+    text-align: justify;
+}
 @media (max-width:750px){
     .aboutus-content{
         text-align: justify;
@@ -68,6 +72,15 @@
 #ourStory{
  background-color: #ffcc29;
  text-align: center;
+ padding: 7% 15%;
+}
+
+.ourStoryRow{
+    padding-top: 3%;
+}
+.ourStoryContent{
+    padding-right: 10%;
+    text-align: justify;
 }
 
 
