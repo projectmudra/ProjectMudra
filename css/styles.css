@@ -1,7 +1,7 @@
 /* Title Section */
 
 .titleClass{
-    padding: 3% 15%;
+    
     background-color: #ffcc29;
     text-align: center;
     
@@ -10,12 +10,27 @@
 .title-image{
     width: 70%;
     border-radius: 100%;
-    margin: 5%;
+    margin: 5% 0 5% 25%;
 }
 
 .quote{
     text-align: center;
-    padding: 10%
+   
+}
+.quote-text{
+    font-family:'Poppins', sans-serif;
+    font-weight: bolder; 
+}
+
+.quote-quotation{
+    font-family:'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 100px;
+    
+    
+}
+.title-div{
+    padding: 3% 15%;
 }
 
 /* !!! NAVBAR CSS */
@@ -23,3 +38,16 @@
     margin-left: 2%;
     margin-right: 2%;
   }
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    color: black !important;
+    
+}
+
+/* About Us */
+
+#aboutUs{
+    padding: 7% 15%;
+    text-align: center;
+}
+
