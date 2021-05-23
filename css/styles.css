@@ -79,7 +79,7 @@
 /* Contact Us Section */
 
 #ContactUs {
-  padding: 7% 15%;
+  padding: 7% 10%;
   text-align: center;
 }
 
@@ -98,7 +98,7 @@
 }
 
 .location{
-    margin: 2%;
+    padding: 3%;
 }
 
 
@@ -125,7 +125,23 @@
 #footer{
   text-align: center;
 }
-    
+
+.closing{
+  
+  color:black;
+  
+  
+}
+.footer-icon{
+  margin: 3%;
+  color: black;
+}
+  
+/* Miscellanous */
+
+.section-title{
+  text-decoration: underline;
+}
 
 
 
