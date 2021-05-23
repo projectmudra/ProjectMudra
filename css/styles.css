@@ -1,93 +1,118 @@
 /* Title Section */
 
-.titleClass{
-    
-    background-color: #ffcc29;
-    text-align: center;
-    width: auto;
-    
+.titleClass {
+  background-color: #ffcc29;
+  text-align: center;
+  width: auto;
 }
 
-.title-image{
-    width: 70%;
-    border-radius: 100%;
-    margin: 5% 0 5% 25%;
+.title-image {
+  width: 70%;
+  border-radius: 100%;
+  margin: 5% 0 5% 25%;
 }
 
-.quote{
-    text-align: center;
-   
+.quote {
+  text-align: center;
 }
-.quote-text{
-    font-family:'Poppins', sans-serif;
-    font-weight: bolder; 
+.quote-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
 }
 
-.quote-quotation{
-    font-family:'Poppins', sans-serif;
-    font-weight: bolder;
-    font-size: 100px;
-    
-    
+.quote-quotation {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 100px;
 }
-.title-div{
-    padding: 3% 15%;
-    max-width: 100%;
+.title-div {
+  padding: 3% 15%;
+  max-width: 100%;
 }
 
 /* !!! NAVBAR CSS */
 .navbar-custom {
-    margin-left: 2%;
-    margin-right: 2%;
-  }
-.nav-link{
-    font-family: 'Poppins', sans-serif;
-    color: black !important;
-    
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.nav-link {
+  font-family: "Poppins", sans-serif;
+  color: black !important;
 }
 
 /* About Us */
 
-#aboutUs{
-    padding: 7% 15%;
-    text-align: center;
-
+#aboutUs {
+  padding: 7% 15%;
+  text-align: center;
 }
 
-.aboutus-content{
+.aboutus-content {
+  text-align: justify;
+}
+@media (max-width: 750px) {
+  .aboutus-content {
     text-align: justify;
+  }
 }
-@media (max-width:750px){
-    .aboutus-content{
-        text-align: justify;
-    }
-}
-@media (max-width:1000px){
-    .aboutus-gif{
-        width: 80%;
-    }
+@media (max-width: 1000px) {
+  .aboutus-gif {
+    width: 80%;
+  }
 }
 
 /* Our Story Section */
-#ourStory{
- background-color: #ffcc29;
- text-align: center;
- padding: 7% 15%;
+#ourStory {
+  background-color: #ffcc29;
+  text-align: center;
+  padding: 7% 15%;
 }
 
-.ourStoryRow{
-    padding-top: 3%;
+.ourStoryRow {
+  padding-top: 3%;
 }
-.ourStoryContent{
-    padding-right: 10%;
-    text-align: justify;
+.ourStoryContent {
+  padding-right: 10%;
+  text-align: justify;
 }
 
 /* Contact Us Section */
 
-#ContactUs{
-    padding: 7% 15%;
-    
+#ContactUs {
+  padding: 7% 15%;
+  text-align: center;
 }
+
+.form-custom {
+  text-align: justify;
+}
+
+.contact-custom {
+
+  background: rgba(255, 204, 41, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.location{
+    margin: 2%;
+}
+
+
+/* Volunteer Experience Section */
+
+#volunteerExperience{
+    background-color: #ffcc29;
+    text-align: center;
+}
+
+.carousel-inner{
+  padding: 7% 15%;
+}
+    
+
 
 
