@@ -112,6 +112,19 @@
 .carousel-inner{
   padding: 7% 15%;
 }
+
+.image-carousel-custom{
+  width:15%;
+  border-radius: 100%;
+  padding: 2%;
+  
+}
+
+/* Footer */
+
+#footer{
+  text-align: center;
+}
     
 
 
