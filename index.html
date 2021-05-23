@@ -25,7 +25,7 @@
     <script src="https://kit.fontawesome.com/b0c1d7f317.js" crossorigin="anonymous"></script>
   </head>
 
-  <body>
+  <body id="myBody">
     <section id="title" class="titleClass">
       <!-- navbar -->
       <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
@@ -215,12 +215,55 @@ height= "50%";
     
               </div>
               <div class="container-fluid col-md-6 ">
-                <img src="images/mudra contact option 1.PNG" alt="Contact Us ClickBait" width="87%"  />
+                <img 
+                
+                src="images/mudra contact option 1.PNG" alt="Contact Us ClickBait" width="87%" id="open" />
                 <span style="display: block;">Click Me ↕ </span>
 
               
               
                   
+            </div>
+
+            <div id="modal_container">
+              <div class="popup">
+                  <h1 style="display: inline-block;">Contact Information</h1>
+                  <button style="margin-right: auto;" id="close"><i class="fas fa-times fa-1x"></i></button>
+                  <hr>
+                <div class="location">
+                  <i class="fas fa-map-marker-alt icon"></i>
+                  <span>Manipal Institute of Technology, Manipal, Karnataka, 576104</span>
+                </div>
+          
+                <div class="phone">
+                  <i class="fas fa-phone icon"></i>
+                  <span>+91 12345678</span>
+                </div>
+          
+                <div class="mail">
+                  <i class="fas fa-envelope icon"></i>
+                  <span>dummyLorem@manipal.edu</span>
+                </div>
+          
+                <span style="display: block; margin-bottom: 4%;">Connect with us on Social Media : 😉</span>
+          
+                <div class="social" style="text-align: center;">
+                  <a
+                    href="https://www.linkedin.com/in/project-mudra-a0736b1bb/"
+                    target="_blank"
+                    ><i class="fab fa-linkedin fa-1x icon-social"></i
+                  ></a>
+                  <a href="https://www.instagram.com/mudramanipal/" target="_blank"
+                    ><i class="fab fa-instagram fa-1x icon-social"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/Mudra-Manipal-119536906380117/"
+                    target="_blank"
+                    ><i class="fab fa-facebook fa-1x icon-social"></i
+                  ></a>
+                </div>
+              </div>
+      
             </div>
     
           </div>
@@ -306,5 +349,6 @@ height= "50%";
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
+    <script src="js/index.js"></script>
   </body>
 </html>

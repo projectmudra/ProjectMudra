@@ -143,5 +143,44 @@
   text-decoration: underline;
 }
 
+#modal_container{
+  display: none;
+  pointer-events: none;
+
+
+}
+
+#modal_container.show{
+  display: block;
+  pointer-events:auto;
+  opacity: 1;
+  
+
+}
+#myBody.making-body-translucent{
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.location{
+  margin-bottom: 4%;
+}
+.phone{
+  margin-bottom: 4%;
+}
+.mail{
+  margin-bottom: 4%;
+}
+.icon{
+  margin-right: 1%;
+  color: #ffcc29;
+
+}
+.icon-social{
+  margin-right: 3%;
+  color: #ffcc29;
+
+}
+
 
 
