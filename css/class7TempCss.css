@@ -1,5 +1,10 @@
 /* Science Section */
 
+#Science{
+  background-color: #ffe6ca;
+  padding-top: 2%;
+}
+
 .video-title {
   border-bottom: 1px solid;
   margin: 0 0 8px 0;
@@ -20,6 +25,19 @@
   margin: 16px 0 0 0;
 }
 
+.subject-title {
+}
+
+hr{
+  background-color: transparent;
+  border-style: dotted none none;
+  width: 20%;
+  border-width: 10px;
+  border-color: grey;
+  margin: 1% auto;
+  margin-bottom: 5%;
+}
+
 .video-element {
   margin-bottom: 3%;
   background: #f8eded;
@@ -35,30 +53,29 @@
   padding: 4%;
 }
 
-.row-custom{
+.row-custom {
   margin-left: auto !important;
   margin-right: auto !important;
-
 }
 
 /* Subjects Intro Section */
 
-#subjects-intro{
+#subjects-intro {
   padding: 7% 15%;
   text-align: center;
 }
 
-.subjects-giphy{
+.subjects-giphy {
   width: 70%;
   border-radius: 85%;
 }
 
-.btn-group{
+.btn-group {
   margin-top: 3%;
 }
 
-@media (max-width:990px){
-  .subjects-giphy{
+@media (max-width: 990px) {
+  .subjects-giphy {
     margin-top: 3%;
   }
 }

@@ -1,6 +1,6 @@
 /* ! TITLE ANIMATION  */
 #pagetitle {
-  background-color: green;
+  background-color: #ffe6ca;
 }
 .popout {
   font-family: Futura, sans-serif;
@@ -67,10 +67,15 @@
   }
 }
 
+
 /* !!! NAVBAR CSS */
 .navbar-custom {
   margin-left: 2%;
   margin-right: 2%;
+}
+.nav-link {
+  font-family: "Poppins", sans-serif;
+  color: black !important;
 }
 
 /* !!! Headings  */
