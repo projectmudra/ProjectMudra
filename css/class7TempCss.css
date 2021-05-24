@@ -73,12 +73,39 @@ hr{
   border-radius: 85%;
 }
 
-.btn-group {
+.btn-group-custom{
   margin-top: 3%;
 }
 
 @media (max-width: 990px) {
   .subjects-giphy {
-    margin-top: 3%;
+    margin-top: 10%;
+    width: 85%;
   }
+
+  .btn-group-custom{
+    margin-top: 7%;
+  }
+}
+
+/* Footer */
+
+#footer{
+  text-align: center;
+  padding: 5% 7% 5% 7%;
+}
+
+.closing{
+  
+  color:black;
+  
+  
+}
+.footer-icon{
+  margin: 3%;
+  color: black;
+}
+
+.social-div{
+  margin-bottom: 3%;
 }

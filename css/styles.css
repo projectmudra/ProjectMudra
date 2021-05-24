@@ -124,6 +124,7 @@
 
 #footer{
   text-align: center;
+  padding: 5% 7% 5% 7%;
 }
 
 .closing{
@@ -136,6 +137,11 @@
   margin: 3%;
   color: black;
 }
+
+.social-div{
+  margin-bottom: 3%;
+}
+
   
 /* Miscellanous */
 
