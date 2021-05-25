@@ -1,0 +1,203 @@
+/* Science Section */
+/* ! TITLE ANIMATION  */
+#pagetitle {
+    background-color: #ffe6ca;
+  }
+  .popout {
+    font-family: Futura, sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    padding: 80px;
+  }
+  @keyframes ani {
+    0% {
+      transform: translate3d(0, 0, 0);
+      text-shadow: 0em 0em 0 #fea82f;
+      color: black;
+    }
+    30% {
+      transform: translate3d(0, 0, 0);
+      text-shadow: 0em 0em 0 #fea82f;
+      color: black;
+    }
+    70% {
+      transform: translate3d(0.08em, -0.08em, 0);
+      text-shadow: -0.08em 0.08em #fea82f;
+      color: black;
+    }
+    100% {
+      transform: translate3d(0.08em, -0.08em, 0);
+      text-shadow: -0.08em 0.08em #fea82f;
+      color: black;
+    }
+  }
+  .popout span {
+    position: relative;
+    display: inline-block;
+    animation: ani 1s infinite alternate cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  .popout span:nth-last-child(1n) {
+    animation-delay: -0.1666666667s;
+  }
+  .popout span:nth-last-child(2n) {
+    animation-delay: -0.3333333333s;
+  }
+  .popout span:nth-last-child(3n) {
+    animation-delay: -0.5s;
+  }
+  
+  @media (max-width: 971px) {
+    .popout {
+      font-family: Futura, sans-serif;
+      font-weight: 900;
+      font-size: 60px;
+      padding: 80px;
+      text-align: center;
+    }
+    .research-img {
+      width: 55%;
+    }
+  }
+  @media (max-width: 610px) {
+    .popout {
+      font-family: Futura, sans-serif;
+      font-weight: 900;
+      font-size: 40px;
+      padding: 20px;
+      text-align: center;
+    }
+  }
+  
+  .subject-title {
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+  }
+  
+  
+  /* !!! NAVBAR CSS */
+  .navbar-custom {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .nav-link {
+    font-family: "Poppins", sans-serif;
+    color: black !important;
+  }
+  
+  /* !!! Headings  */
+  .search {
+    margin: 2%;
+  }
+  
+  
+  
+  #Science{
+    background-color: #ffe6ca;
+    padding-top: 2%;
+  }
+  
+  .video-title {
+    border-bottom: 1px solid;
+    margin: 0 0 8px 0;
+    padding-bottom: 5px;
+  }
+  .div-video {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+  }
+  .iframe-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .summary {
+    margin: 16px 0 0 0;
+  }
+  
+  
+  hr{
+    background-color: transparent;
+    border-style: dotted none none;
+    width: 20%;
+    border-width: 10px;
+    border-color: grey;
+    margin: 1% auto;
+    margin-bottom: 1%;
+  }
+  
+  .video-element {
+    margin-bottom: 3%;
+    background: #f8eded;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 90%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding: 4%;
+  }
+  
+  .row-custom {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  
+  /* Subjects Intro Section */
+  
+  #subjects-intro {
+    padding: 7% 15%;
+    text-align: center;
+  }
+  
+  .subjects-giphy {
+    width: 70%;
+    border-radius: 85%;
+  }
+  
+  .btn-group-custom{
+    margin-top: 3%;
+  }
+  
+  @media (max-width: 990px) {
+    .subjects-giphy {
+      margin-top: 10%;
+      width: 85%;
+    }
+  
+    .btn-group-custom{
+      margin-top: 7%;
+    }
+  }
+  
+  /* Footer */
+  
+  #footer{
+    text-align: center;
+    padding: 5% 7% 5% 7%;
+  }
+  
+  .closing{
+    
+    color:black;
+    
+    
+  }
+  .footer-icon{
+    margin: 3%;
+    color: black;
+  }
+  
+  .social-div{
+    margin-bottom: 3%;
+  }
+  
