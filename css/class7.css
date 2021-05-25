@@ -21,7 +21,9 @@ hr {
 }
 
 .btn-group-custom {
-  margin-top: 3%;
+  margin-top: 3% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 @media (max-width: 990px) {
@@ -44,8 +46,14 @@ hr {
   text-align: center;
 }
 
+#english {
+  padding-top: 2%;
+}
 #Science {
   background-color: #ffe6ca;
+  padding-top: 2%;
+}
+#sost {
   padding-top: 2%;
 }
 
