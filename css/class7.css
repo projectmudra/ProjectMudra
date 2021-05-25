@@ -21,9 +21,8 @@ hr {
 }
 
 .btn-group-custom {
-  margin-top: 3% !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
+  margin-top: 3%;
+  display: block;
 }
 
 @media (max-width: 990px) {
