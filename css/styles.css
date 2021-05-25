@@ -45,6 +45,7 @@
 #aboutUs {
   padding: 7% 15%;
   text-align: center;
+  font-family: 'Playfair Display', serif;
 }
 
 .aboutus-content {
@@ -66,6 +67,7 @@
   background-color: #ffcc29;
   text-align: center;
   padding: 7% 15%;
+  font-family: 'Playfair Display', serif;
 }
 
 .ourStoryRow {
@@ -81,6 +83,7 @@
 #ContactUs {
   padding: 7% 10%;
   text-align: center;
+  font-family: 'Playfair Display', serif;
 }
 
 .form-custom {
@@ -107,6 +110,7 @@
 #volunteerExperience{
     background-color: #ffcc29;
     text-align: center;
+    font-family: 'Playfair Display', serif;
 }
 
 .carousel-inner{
@@ -125,6 +129,7 @@
 #footer{
   text-align: center;
   padding: 5% 7% 5% 7%;
+  font-family: 'Playfair Display', serif;
 }
 
 .closing{
@@ -142,6 +147,29 @@
   margin-bottom: 3%;
 }
 
+
+
+
+
+/*Accordion container and each item*/
+
+
+.accordion-item{
+	background-color: transparent;
+  border-bottom: 3px solid #ffcc29 ;
+  
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.accordion-item:hover{
+  background-color: #ffcc29
+
+}
+
+
+
+
+
   
 /* Miscellanous */
 
@@ -152,6 +180,7 @@
 #modal_container{
   display: none;
   pointer-events: none;
+  font-family: 'Playfair Display', serif;
 
 
 }
@@ -160,6 +189,7 @@
   display: block;
   pointer-events:auto;
   opacity: 1;
+  font-family: 'Playfair Display', serif;
   
 
 }
@@ -187,6 +217,8 @@
   color: #ffcc29;
 
 }
+
+
 
 
 
