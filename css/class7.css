@@ -18,6 +18,7 @@ hr {
 .subjects-giphy {
   width: 70%;
   border-radius: 85%;
+  vertical-align: middle;
 }
 
 .btn-group-custom {
