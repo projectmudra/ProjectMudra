@@ -9,13 +9,15 @@
 .title-image {
   width: 70%;
   border-radius: 100%;
-  margin: 5% 0 5% 25%;
+  margin: auto;
 }
 
 
 
   .quote {
     text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
   }
   .quote-text {
     font-family: "Poppins", sans-serif;
@@ -24,7 +26,8 @@
 
   .title-div {
     padding: 3% 15%;
-    max-width: 100%;
+  
+  
   }
 }
 
@@ -44,6 +47,10 @@
     padding: 7% 15%;
     text-align: center;
     font-family: "Lato", sans-serif;
+  }
+  .about-gif{
+    height: 30%;
+    width: 30%;
   }
 
   .aboutus-content {
@@ -219,6 +226,8 @@
   .text-f{
     margin: 2%;
     margin-top: 10%;
+    font-family: 'Acme', sans-serif;
+  font-size: 1.2rem;
   }
 .feature-row{
 margin-top: 5%;
@@ -227,3 +236,7 @@ margin-top: 5%;
     font-family: 'Pacifico', cursive;
     font-size: 3rem;
   }
+.text{
+  font-family: 'Acme', sans-serif;
+  font-size: 1.2rem;
+}
