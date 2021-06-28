@@ -42,7 +42,7 @@
 #aboutUs {
   padding: 7% 15%;
   text-align: center;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .aboutus-content {
@@ -64,7 +64,7 @@
   background-color: #ffcc29;
   text-align: center;
   padding: 7% 15%;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .ourStoryRow {
@@ -80,7 +80,7 @@
 #ContactUs {
   padding: 7% 10%;
   text-align: center;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .form-custom {
@@ -107,7 +107,7 @@
 #volunteerExperience{
     background-color: #ffcc29;
     text-align: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .carousel-inner{
@@ -173,13 +173,13 @@
 /* Miscellanous */
 
 .section-title{
-  text-decoration: underline;
+  
 }
 
 #modal_container{
   display: none;
   pointer-events: none;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lato', sans-serif;
   margin: 2%;
 
 
@@ -189,7 +189,7 @@
   display: block;
   pointer-events:auto;
   opacity: 1;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lato', sans-serif;
   text-align: left;
   
 
