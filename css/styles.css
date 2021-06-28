@@ -226,8 +226,8 @@
   .text-f{
     margin: 2%;
     margin-top: 10%;
-    font-family: 'Acme', sans-serif;
-  font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+      font-size: 1.2rem;
   }
 .feature-row{
 margin-top: 5%;
@@ -237,6 +237,6 @@ margin-top: 5%;
     font-size: 3rem;
   }
 .text{
-  font-family: 'Acme', sans-serif;
-  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
 }
