@@ -12,10 +12,7 @@
   margin: 5% 0 5% 25%;
 }
 
-@media (max-width: 968px) {
-  .title-image {
-    margin: 5% 0 5% 30%;
-  }
+
 
   .quote {
     text-align: center;
