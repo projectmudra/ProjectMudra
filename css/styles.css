@@ -18,13 +18,10 @@
 .quote-text {
   font-family: "Poppins", sans-serif;
   font-weight: bolder;
+ 
 }
 
-.quote-quotation {
-  font-family: "Poppins", sans-serif;
-  font-weight: bolder;
-  font-size: 100px;
-}
+
 .title-div {
   padding: 3% 15%;
   max-width: 100%;
@@ -183,6 +180,7 @@
   display: none;
   pointer-events: none;
   font-family: 'Playfair Display', serif;
+  margin: 2%;
 
 
 }
@@ -192,6 +190,7 @@
   pointer-events:auto;
   opacity: 1;
   font-family: 'Playfair Display', serif;
+  text-align: left;
   
 
 }
@@ -200,14 +199,19 @@
   pointer-events: none;
 }
 
+.head-contact{
+  text-align: center;
+}
+
 .location{
-  margin-bottom: 4%;
+  margin-bottom: 1%;
+  padding: 0%;
 }
 .phone{
-  margin-bottom: 4%;
+  margin-bottom: 2%;
 }
 .mail{
-  margin-bottom: 4%;
+  margin-bottom: 2%;
 }
 .icon{
   margin-right: 1%;
