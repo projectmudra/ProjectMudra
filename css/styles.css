@@ -201,3 +201,29 @@
     margin-right: 3%;
     color: #ffcc29;
   }
+
+  .feature-box{
+    text-align: center;
+    padding: 2%;
+  }
+  .icon-f{
+        color: #EE7B30;
+  }
+  .initiative-img{
+    max-height: 100%;
+    width: 60%;
+  }
+  .aboutus-content{
+    text-align: center;
+  }
+  .text-f{
+    margin: 2%;
+    margin-top: 10%;
+  }
+.feature-row{
+margin-top: 5%;
+}
+  .pacifico{
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+  }
