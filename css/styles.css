@@ -15,6 +15,9 @@
   .title-image{
     margin-top: 5%;
   }
+  #aboutUs{
+    padding: 7% 1%;
+  }
   
 }
 
@@ -50,6 +53,7 @@
   text-align: center;
   font-family: "Lato", sans-serif;
 }
+
 .about-gif {
   height: 30%;
   width: 30%;
