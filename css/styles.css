@@ -24,9 +24,9 @@
 }
 
 .title-div {
-  padding: 3% 7%;
   margin: 0;
-  height: 100vh;
+  padding: 3% 7%;
+
 }
 
 /* !!! NAVBAR CSS */
@@ -38,7 +38,9 @@
   font-family: "Poppins", sans-serif;
   color: black !important;
 }
-
+.navbar-title-image{
+  border-radius: 10%;
+}
 /* About Us */
 
 #aboutUs {
